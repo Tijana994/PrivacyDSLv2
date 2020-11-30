@@ -12,7 +12,7 @@
       causedBy="//@dataSubjectComplaints.0">
     <when>
       <intervals
-          dateTime="2002-09-27T00:00:00.000+0200"/>
+          dateTime="2001-09-27T00:00:00.000+0200"/>
       <intervals
           preposition="to"
           dateTime="2002-09-30T00:00:00.000+0200"/>
@@ -26,11 +26,8 @@
       name="p2">
     <when>
       <intervals
-          preposition="before"
-          dateTime="2020-09-27T00:00:00.000+0200"/>
-      <intervals
           preposition="after"
-          dateTime="2002-09-27T00:00:00.000+0200"/>
+          dateTime="2002-09-29T00:00:00.000+0200"/>
     </when>
     <what datas="//@allDatas.0">
       <actions>Store</actions>
@@ -38,19 +35,34 @@
     <how dataSource="test">
       <attached
           terminationExplanation="PEra"
-          startDate="1988-09-29T00:00:00.000+0100"
-          terminationDate="1888-11-17T00:00:00.000+0100"/>
+          startDate="1985-09-29T01:00:00.000+0200"
+          terminationDate="1989-11-17T00:00:00.000+0100"/>
     </how>
-    <how/>
   </policyStatements>
   <policyStatements
       name="p3"
-      causedBy="//@dataSubjectComplaints.1">
+      whose="//@allPrincipals.1">
     <what datas="//@allDatas.1">
-      <actions>NotifyAboutRectification</actions>
+      <actions>Access</actions>
     </what>
   </policyStatements>
-  <policyStatements/>
+  <policyStatements
+      name="p4">
+    <when>
+      <intervals
+          preposition="until"
+          dateTime="1999-08-29T00:00:00.000+0200"/>
+    </when>
+    <what datas="//@allDatas.0">
+      <actions>Store</actions>
+    </what>
+    <how dataSource="test">
+      <attached
+          terminationExplanation="PEra"
+          startDate="1985-09-29T01:00:00.000+0200"
+          terminationDate="1989-11-17T00:00:00.000+0100"/>
+    </how>
+  </policyStatements>
   <allPrincipals
       name="Tijana"
       type="Group"/>
@@ -61,10 +73,15 @@
   <locations
       name="Madjarska"
       isEUMember="true"/>
+  <defaultProtectionControls>tommo</defaultProtectionControls>
   <allProviders
       name="Pera"
       located="//@locations.0"/>
-  <configurationManager/>
+  <configurationManager>
+    <dataSources>test</dataSources>
+    <protectionControlMethods>tomo</protectionControlMethods>
+    <protectionControlMethods>tommo</protectionControlMethods>
+  </configurationManager>
   <allDatas
       name="hight">
     <accessConstraints>
@@ -78,14 +95,14 @@
   <allDatas
       name="weight"/>
   <dataSubjectComplaints
+      name="c1"
       who="//@allPrincipals.0"
-      what="//@allDatas.0">
-    <when>
-      <intervals
-          dateTime="2002-09-27T00:00:00.000+0200"/>
-    </when>
-  </dataSubjectComplaints>
+      subject="//@allDatas.0"
+      when="2001-09-27T00:00:00.000+0200"/>
   <dataSubjectComplaints
+      name="c2"
       who="//@allPrincipals.1"
-      action="Rectification"/>
+      subject="//@allDatas.1"
+      when="1999-08-29T00:00:00.000+0200"/>
+  <privacyPolicyHelper/>
 </privacyModel:PrivacyPolicy>

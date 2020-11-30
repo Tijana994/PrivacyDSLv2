@@ -107,6 +107,10 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference privacyModel.ecore#//PrivacyPolicy/configurationManager"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference privacyModel.ecore#//PrivacyPolicy/allDatas"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference privacyModel.ecore#//PrivacyPolicy/dataSubjectComplaints"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference privacyModel.ecore#//PrivacyPolicy/privacyPolicyHelper"/>
+      <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicy/getPolicyStatementWithConstraint">
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicy/getPolicyStatementWithConstraint/complaint"/>
+      </genOperations>
     </genClasses>
     <genClasses ecoreClass="privacyModel.ecore#//PolicyStatement">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//PolicyStatement/type"/>
@@ -145,7 +149,7 @@
     <genClasses ecoreClass="privacyModel.ecore#//Location">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//Location/isEUMember"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//Location/type"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference privacyModel.ecore#//Location/subLocations"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference privacyModel.ecore#//Location/subLocations"/>
     </genClasses>
     <genClasses ecoreClass="privacyModel.ecore#//Constraint">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//Constraint/dataOwnerScope"/>
@@ -204,21 +208,39 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//Approval/startDate"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//Approval/terminationDate"/>
     </genClasses>
-    <genClasses ecoreClass="privacyModel.ecore#//ProtectionControl">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//ProtectionControl/method"/>
-    </genClasses>
     <genClasses ecoreClass="privacyModel.ecore#//ConfigurationManager">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference privacyModel.ecore#//ConfigurationManager/protectionControlsMethods"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference privacyModel.ecore#//ConfigurationManager/definedDataSources"/>
-    </genClasses>
-    <genClasses ecoreClass="privacyModel.ecore#//DataSource">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//DataSource/source"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//ConfigurationManager/dataSources"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//ConfigurationManager/protectionControlMethods"/>
     </genClasses>
     <genClasses ecoreClass="privacyModel.ecore#//Complaint">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference privacyModel.ecore#//Complaint/when"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference privacyModel.ecore#//Complaint/who"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//Complaint/action"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference privacyModel.ecore#//Complaint/what"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference privacyModel.ecore#//Complaint/subject"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//Complaint/when"/>
+    </genClasses>
+    <genClasses ecoreClass="privacyModel.ecore#//PrivacyPolicyHelper">
+      <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicyHelper/isPolicyControlValid">
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isPolicyControlValid/policyControl"/>
+      </genOperations>
+      <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicyHelper/isDataSourceValid">
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isDataSourceValid/dataSource"/>
+      </genOperations>
+      <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicyHelper/areDatesOverlap">
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/areDatesOverlap/interval"/>
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/areDatesOverlap/date"/>
+      </genOperations>
+      <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicyHelper/isDateBeforeInterval">
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isDateBeforeInterval/interval"/>
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isDateBeforeInterval/date"/>
+      </genOperations>
+      <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicyHelper/isDateAfterInterval">
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isDateAfterInterval/interval"/>
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isDateAfterInterval/date"/>
+      </genOperations>
+      <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicyHelper/isDateInInterval">
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isDateInInterval/interval"/>
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isDateInInterval/date"/>
+      </genOperations>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>
