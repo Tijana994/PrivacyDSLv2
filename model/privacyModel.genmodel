@@ -88,6 +88,7 @@
       <genEnumLiterals ecoreEnumLiteral="privacyModel.ecore#//ConstraintScope/In"/>
       <genEnumLiterals ecoreEnumLiteral="privacyModel.ecore#//ConstraintScope/Out"/>
       <genEnumLiterals ecoreEnumLiteral="privacyModel.ecore#//ConstraintScope/All"/>
+      <genEnumLiterals ecoreEnumLiteral="privacyModel.ecore#//ConstraintScope/None"/>
     </genEnums>
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="privacyModel.ecore#//ComplaintAction">
       <genEnumLiterals ecoreEnumLiteral="privacyModel.ecore#//ComplaintAction/Erasure"/>
@@ -240,6 +241,10 @@
       <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicyHelper/isDateInInterval">
         <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isDateInInterval/interval"/>
         <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isDateInInterval/date"/>
+      </genOperations>
+      <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicyHelper/isValidPrincipalScope">
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isValidPrincipalScope/principal"/>
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isValidPrincipalScope/conScope"/>
       </genOperations>
     </genClasses>
   </genPackages>

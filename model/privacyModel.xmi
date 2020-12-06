@@ -8,8 +8,7 @@
     name="Policy">
   <policyStatements
       name="p1"
-      whose="//@allPrincipals.0"
-      causedBy="//@dataSubjectComplaints.0">
+      whose="//@allPrincipals.0">
     <when>
       <intervals
           dateTime="2001-09-27T00:00:00.000+0200"/>
@@ -63,6 +62,27 @@
           terminationDate="1989-11-17T00:00:00.000+0100"/>
     </how>
   </policyStatements>
+  <policyStatements
+      name="p5"
+      who="//@allPrincipals.0"
+      whose="//@allPrincipals.0"
+      whom="//@allPrincipals.1">
+    <when>
+      <intervals
+          preposition="at"
+          dateTime="2020-08-30T00:00:00.000+0200"/>
+    </when>
+    <what providers="//@allProviders.0"
+        datas="//@allDatas.0">
+      <actions>Store</actions>
+    </what>
+    <how>
+      <attached
+          allowed="//@locations.1 //@locations.0"
+          startDate="2020-09-29T00:00:00.000+0200"
+          terminationDate="2020-10-28T23:00:00.000+0100"/>
+    </how>
+  </policyStatements>
   <allPrincipals
       name="Tijana"
       type="Group"/>
@@ -86,7 +106,8 @@
       name="hight">
     <accessConstraints>
       <value
-          dataControllerScope="All">
+          dataControllerScope="All"
+          dataRecipientScope="All">
         <required
             notAllowed="//@locations.0"/>
       </value>
@@ -94,11 +115,6 @@
   </allDatas>
   <allDatas
       name="weight"/>
-  <dataSubjectComplaints
-      name="c1"
-      who="//@allPrincipals.0"
-      subject="//@allDatas.0"
-      when="2001-09-27T00:00:00.000+0200"/>
   <dataSubjectComplaints
       name="c2"
       who="//@allPrincipals.1"
