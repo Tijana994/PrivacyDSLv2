@@ -64,7 +64,6 @@
   </policyStatements>
   <policyStatements
       name="p5"
-      who="//@allPrincipals.0"
       whose="//@allPrincipals.0"
       whom="//@allPrincipals.1">
     <when>
@@ -76,10 +75,11 @@
         datas="//@allDatas.0">
       <actions>Store</actions>
     </what>
-    <how>
+    <how dataSource="test">
       <attached
+          restrictionType="ExplicitConsent"
           allowed="//@locations.1 //@locations.0"
-          startDate="2020-09-29T00:00:00.000+0200"
+          startDate="2020-08-29T00:00:00.000+0200"
           terminationDate="2020-10-28T23:00:00.000+0100"/>
     </how>
   </policyStatements>
@@ -106,7 +106,7 @@
       name="hight">
     <accessConstraints>
       <value
-          dataControllerScope="All"
+          dataControllerScope="None"
           dataRecipientScope="All">
         <required
             notAllowed="//@locations.0"/>
