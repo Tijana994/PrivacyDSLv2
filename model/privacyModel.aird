@@ -329,6 +329,14 @@
               <styles xmi:type="notation:FontStyle" xmi:id="_SDz1USg-Eeu3XdDcotsorQ" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_SDz1Uig-Eeu3XdDcotsorQ"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_5wNFkDsXEeuGRc1oxgwK2g" type="3010" element="_5vCn8DsXEeuGRc1oxgwK2g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_5wNFkTsXEeuGRc1oxgwK2g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_5wNFkjsXEeuGRc1oxgwK2g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_cm3UgD1fEeuFmq4VN1VpTw" type="3010" element="_cjP_0D1fEeuFmq4VN1VpTw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_cm3UgT1fEeuFmq4VN1VpTw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_cm3Ugj1fEeuFmq4VN1VpTw"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_i-IXgSg1Eeu3XdDcotsorQ"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_i-IXgig1Eeu3XdDcotsorQ"/>
           </children>
@@ -501,6 +509,10 @@
         <children xmi:type="notation:Node" xmi:id="_i-Mo9Cg1Eeu3XdDcotsorQ" type="2003" element="_iyRFwCg1Eeu3XdDcotsorQ">
           <children xmi:type="notation:Node" xmi:id="_i-NQACg1Eeu3XdDcotsorQ" type="5007"/>
           <children xmi:type="notation:Node" xmi:id="_i-NQASg1Eeu3XdDcotsorQ" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_cYCaAD4-Eeu4BYXgFpvGwA" type="3010" element="_cWxOsD4-Eeu4BYXgFpvGwA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_cYCaAT4-Eeu4BYXgFpvGwA" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_cYCaAj4-Eeu4BYXgFpvGwA"/>
+            </children>
             <children xmi:type="notation:Node" xmi:id="_i-s_QCg1Eeu3XdDcotsorQ" type="3010" element="_i8pJwSg1Eeu3XdDcotsorQ">
               <styles xmi:type="notation:FontStyle" xmi:id="_i-s_QSg1Eeu3XdDcotsorQ" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_i-s_Qig1Eeu3XdDcotsorQ"/>
@@ -575,11 +587,19 @@
               <styles xmi:type="notation:FontStyle" xmi:id="_i-ye0Sg1Eeu3XdDcotsorQ" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_i-ye0ig1Eeu3XdDcotsorQ"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_VU9loDsZEeuGRc1oxgwK2g" type="3010" element="_VT8R8DsZEeuGRc1oxgwK2g">
+              <styles xmi:type="notation:FontStyle" xmi:id="_VU-MsDsZEeuGRc1oxgwK2g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_VU-MsTsZEeuGRc1oxgwK2g"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qMuEID45Eeu4BYXgFpvGwA" type="3010" element="_qLbDoD45Eeu4BYXgFpvGwA">
+              <styles xmi:type="notation:FontStyle" xmi:id="_qMuEIT45Eeu4BYXgFpvGwA" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qMuEIj45Eeu4BYXgFpvGwA"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_i-PFMSg1Eeu3XdDcotsorQ"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_i-PFMig1Eeu3XdDcotsorQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_i-OeJSg1Eeu3XdDcotsorQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i-OeJig1Eeu3XdDcotsorQ" x="4452" y="456"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i-OeJig1Eeu3XdDcotsorQ" x="4332" y="456"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_i-PFMyg1Eeu3XdDcotsorQ" type="2003" element="_i0sHoCg1Eeu3XdDcotsorQ">
           <children xmi:type="notation:Node" xmi:id="_i-PFNig1Eeu3XdDcotsorQ" type="5007"/>
@@ -723,6 +743,10 @@
               <styles xmi:type="notation:FontStyle" xmi:id="_KoI6USzmEeuB_uohagkdcw" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_KoI6UizmEeuB_uohagkdcw"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="_cnFW8D1fEeuFmq4VN1VpTw" type="3010" element="_cjyLUD1fEeuFmq4VN1VpTw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_cnFW8T1fEeuFmq4VN1VpTw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_cnFW8j1fEeuFmq4VN1VpTw"/>
+            </children>
             <children xmi:type="notation:Node" xmi:id="_MW0ZwC9DEeu-d4w4XklZvw" type="3010" element="_MUUfYC9DEeu-d4w4XklZvw">
               <styles xmi:type="notation:FontStyle" xmi:id="_MW0ZwS9DEeu-d4w4XklZvw" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_MW0Zwi9DEeu-d4w4XklZvw"/>
@@ -747,7 +771,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_vYlx8yv3EeuVweutS60jjA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_vYlK4Sv3EeuVweutS60jjA" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vYlK4iv3EeuVweutS60jjA" x="4320" y="24" width="372" height="160"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vYlK4iv3EeuVweutS60jjA" x="4092" y="12" width="375" height="220"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_A2QTQyg1Eeu3XdDcotsorQ"/>
         <edges xmi:type="notation:Edge" xmi:id="_i-4lcCg1Eeu3XdDcotsorQ" type="4001" element="_i81XACg1Eeu3XdDcotsorQ" source="_i-PFMyg1Eeu3XdDcotsorQ" target="_i-DfBCg1Eeu3XdDcotsorQ">
@@ -912,17 +936,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_i_KSQig1Eeu3XdDcotsorQ" type="4001" element="_i9Hq4Cg1Eeu3XdDcotsorQ" source="_i-HJYyg1Eeu3XdDcotsorQ" target="_i-OeJCg1Eeu3XdDcotsorQ">
           <children xmi:type="notation:Node" xmi:id="_i_KSRig1Eeu3XdDcotsorQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_KSRyg1Eeu3XdDcotsorQ" x="24" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_KSRyg1Eeu3XdDcotsorQ" x="5" y="9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_i_KSSCg1Eeu3XdDcotsorQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_KSSSg1Eeu3XdDcotsorQ" x="2" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_KSSSg1Eeu3XdDcotsorQ" x="3" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_i_KSSig1Eeu3XdDcotsorQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_KSSyg1Eeu3XdDcotsorQ" x="10" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_KSSyg1Eeu3XdDcotsorQ" y="-10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_i_KSQyg1Eeu3XdDcotsorQ" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_i_KSRCg1Eeu3XdDcotsorQ" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i_KSRSg1Eeu3XdDcotsorQ" points="[-257, 24, 411, -36]$[-479, 24, 189, -36]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i_KSRSg1Eeu3XdDcotsorQ" points="[-257, 30, 413, -35]$[-362, 30, 308, -35]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i_K5UCg1Eeu3XdDcotsorQ" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i_K5USg1Eeu3XdDcotsorQ" id="(0.5,0.5)"/>
         </edges>
@@ -1472,19 +1496,19 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_zFNNoCv3EeuVweutS60jjA" type="4001" element="_y-m2YCv3EeuVweutS60jjA" source="_i-KzwCg1Eeu3XdDcotsorQ" target="_vYlK4Cv3EeuVweutS60jjA">
           <children xmi:type="notation:Node" xmi:id="_zFN0sCv3EeuVweutS60jjA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zFN0sSv3EeuVweutS60jjA" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zFN0sSv3EeuVweutS60jjA" x="-114" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_zFN0siv3EeuVweutS60jjA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zFN0syv3EeuVweutS60jjA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zFN0syv3EeuVweutS60jjA" x="-35" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_zFN0tCv3EeuVweutS60jjA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zFN0tSv3EeuVweutS60jjA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zFN0tSv3EeuVweutS60jjA" x="-193" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_zFNNoSv3EeuVweutS60jjA" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_zFNNoiv3EeuVweutS60jjA" fontColor="7490599" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zFNNoyv3EeuVweutS60jjA" points="[0, 0, 559, 0]$[-559, 0, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zFNNoyv3EeuVweutS60jjA" points="[0, -12, 787, 0]$[-784, -12, 3, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zFObwCv3EeuVweutS60jjA" id="(0.0,0.12244897959183673)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zFObwSv3EeuVweutS60jjA" id="(1.0,0.9113924050632911)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zFObwSv3EeuVweutS60jjA" id="(0.9919571045576407,0.6605504587155964)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_yP3psC27Eeu35aPdRYt9Bg" type="4001" element="_yOslAC27Eeu35aPdRYt9Bg" source="_i96VFCg1Eeu3XdDcotsorQ" target="_i-GiUCg1Eeu3XdDcotsorQ">
           <children xmi:type="notation:Node" xmi:id="_yP4QwC27Eeu35aPdRYt9Bg" type="6001">
@@ -1943,7 +1967,7 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_iioHQCg1Eeu3XdDcotsorQ" name="PolicyStatement" tooltipText="" outgoingEdges="_i9FOoCg1Eeu3XdDcotsorQ _i9GcwCg1Eeu3XdDcotsorQ _i9Hq4Cg1Eeu3XdDcotsorQ _i9IR8yg1Eeu3XdDcotsorQ _i9JgECg1Eeu3XdDcotsorQ _i9KHIyg1Eeu3XdDcotsorQ _i9LVQCg1Eeu3XdDcotsorQ _i9MjYCg1Eeu3XdDcotsorQ _i9NKcCg1Eeu3XdDcotsorQ _i9O_oCg1Eeu3XdDcotsorQ _i9PmsCg1Eeu3XdDcotsorQ _i9pPUCg1Eeu3XdDcotsorQ" incomingEdges="_i9O_oCg1Eeu3XdDcotsorQ _i9TREyg1Eeu3XdDcotsorQ" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_iioHQCg1Eeu3XdDcotsorQ" name="PolicyStatement" tooltipText="&#xA;WARNING : The «invariant» 'privacyModel::PolicyStatement' is invalid: '&quot;Tuple {\n\tmessage : String = \'Purpose is not define when data is collected\',\n\tstatus : Boolean = \n\t\t\t\tif(not(self.what = null) and self.what.actions->exists(act| act = Action::Access)) then\n\t\t\t\t\tself.what.datas->forAll(data: PrivacyData|\n\t\t\t\t\t\tlet statements : PolicyStatement[*|?] = PrivacyPolicy.allInstances()->asSequence()->first().policyStatements->select(st: PolicyStatement| \n\t\t\t\t\t\t\tnot(st.what = null) and st.what.actions->exists(act| act = Action::Store) and st.what.datas->exists(d| d = data))\n\t\t\t\t\t\t\tin \n\t\t\t\t\t\t\tif(statements->isEmpty()) then \n\t\t\t\t\t\t\t\ttrue\n\t\t\t\t\t\t\telse\n\t\t\t\t\t\t\t\tstatements -> forAll(st: PolicyStatement|\n\t\t\t\t\t\t\t\t\tif(PrivacyPolicy.allInstances()->asSequence()->first().privacyPolicyHelper.areIntervalsOverlap(self.when, st.when)) then\n\t\t\t\t\t\t\t\t\t\tst.isPurposeValid(self.why)\n\t\t\t\t\t\t\t\t\telse\n\t\t\t\t\t\t\t\t\t\tfalse\n\t\t\t\t\t\t\t\t\tendif\n\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\tendif\n\t\t\t\t\t)\n\t\t\t\telse\n\t\t\t\t\ttrue\n\t\t\t\tendif\n}.status&quot;&#xA;&#x9;The 'LetVariable::CompatibleTypeForInitializer' constraint is violated for 'org.eclipse.ocl.pivot.internal.LetVariableImpl@439fb77{platform:/resource/PrivacyModel/model/privacyModel.ecore.oclas#JjeZ,}''&#xA;WARNING : The 'LetVariable::CompatibleTypeForInitializer' constraint is violated for 'LetVariable{platform:/resource/PrivacyModel/model/privacyModel.ecore.oclas#JjeZ,}'" outgoingEdges="_i9FOoCg1Eeu3XdDcotsorQ _i9GcwCg1Eeu3XdDcotsorQ _i9Hq4Cg1Eeu3XdDcotsorQ _i9IR8yg1Eeu3XdDcotsorQ _i9JgECg1Eeu3XdDcotsorQ _i9KHIyg1Eeu3XdDcotsorQ _i9LVQCg1Eeu3XdDcotsorQ _i9MjYCg1Eeu3XdDcotsorQ _i9NKcCg1Eeu3XdDcotsorQ _i9O_oCg1Eeu3XdDcotsorQ _i9PmsCg1Eeu3XdDcotsorQ _i9pPUCg1Eeu3XdDcotsorQ" incomingEdges="_i9O_oCg1Eeu3XdDcotsorQ _i9TREyg1Eeu3XdDcotsorQ" width="12" height="10">
       <target xmi:type="ecore:EClass" href="privacyModel.ecore#//PolicyStatement"/>
       <semanticElements xmi:type="ecore:EClass" href="privacyModel.ecore#//PolicyStatement"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1967,6 +1991,24 @@
         <semanticElements xmi:type="ecore:EParameter" href="privacyModel.ecore#//PolicyStatement/actionContainsCausedByAsType/actionType"/>
         <semanticElements xmi:type="ecore:EParameter" href="privacyModel.ecore#//PolicyStatement/actionContainsCausedByAsType/complaintType"/>
         <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_R7xToCg-Eeu3XdDcotsorQ" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_5vCn8DsXEeuGRc1oxgwK2g" name="isPurposeValid(purpose Purpose) : EBoolean" tooltipText="isPurposeValid(purpose) : EBoolean">
+        <target xmi:type="ecore:EOperation" href="privacyModel.ecore#//PolicyStatement/isPurposeValid"/>
+        <semanticElements xmi:type="ecore:EOperation" href="privacyModel.ecore#//PolicyStatement/isPurposeValid"/>
+        <semanticElements xmi:type="ecore:EParameter" href="privacyModel.ecore#//PolicyStatement/isPurposeValid/purpose"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_5vD2EDsXEeuGRc1oxgwK2g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_cjP_0D1fEeuFmq4VN1VpTw" name="dateShouldBeDefinedForType(actionType Action) : EBoolean" tooltipText="dateShouldBeDefinedForType(actionType) : EBoolean">
+        <target xmi:type="ecore:EOperation" href="privacyModel.ecore#//PolicyStatement/dateShouldBeDefinedForType"/>
+        <semanticElements xmi:type="ecore:EOperation" href="privacyModel.ecore#//PolicyStatement/dateShouldBeDefinedForType"/>
+        <semanticElements xmi:type="ecore:EParameter" href="privacyModel.ecore#//PolicyStatement/dateShouldBeDefinedForType/actionType"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_cjRN8D1fEeuFmq4VN1VpTw" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
@@ -2260,6 +2302,14 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_cWxOsD4-Eeu4BYXgFpvGwA" name="None" tooltipText="">
+        <target xmi:type="ecore:EEnumLiteral" href="privacyModel.ecore#//ProcessingReasonSubtype/None"/>
+        <semanticElements xmi:type="ecore:EEnumLiteral" href="privacyModel.ecore#//ProcessingReasonSubtype/None"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_cWx1wD4-Eeu4BYXgFpvGwA" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>
+      </ownedElements>
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_i8pJwSg1Eeu3XdDcotsorQ" name="Prevention" tooltipText="">
         <target xmi:type="ecore:EEnumLiteral" href="privacyModel.ecore#//ProcessingReasonSubtype/Prevention"/>
         <semanticElements xmi:type="ecore:EEnumLiteral" href="privacyModel.ecore#//ProcessingReasonSubtype/Prevention"/>
@@ -2381,18 +2431,38 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_i8L2wSg1Eeu3XdDcotsorQ" name="processingReason : ProcessingReason = Research" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="privacyModel.ecore#//Purpose/processingReason"/>
         <semanticElements xmi:type="ecore:EAttribute" href="privacyModel.ecore#//Purpose/processingReason"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_2vLdwCzjEeuB_uohagkdcw" labelAlignment="LEFT">
-          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_p3pZwD4-Eeu4BYXgFpvGwA" labelAlignment="LEFT" description="_i7xnECg1Eeu3XdDcotsorQ">
+          <labelFormat>bold</labelFormat>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_i8Md0Sg1Eeu3XdDcotsorQ" name="processingReasonSubtype : ProcessingReasonSubtype = Prevention" tooltipText="">
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_i8Md0Sg1Eeu3XdDcotsorQ" name="processingReasonSubtype : ProcessingReasonSubtype = None" tooltipText="">
         <target xmi:type="ecore:EAttribute" href="privacyModel.ecore#//Purpose/processingReasonSubtype"/>
         <semanticElements xmi:type="ecore:EAttribute" href="privacyModel.ecore#//Purpose/processingReasonSubtype"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_i8NE4Cg1Eeu3XdDcotsorQ" labelAlignment="LEFT">
-          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_qZOc0D4-Eeu4BYXgFpvGwA" labelAlignment="LEFT" description="_i7xnECg1Eeu3XdDcotsorQ">
+          <labelFormat>bold</labelFormat>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_VT8R8DsZEeuGRc1oxgwK2g" name="isValid(purpose Purpose) : EBoolean" tooltipText="isValid(purpose) : EBoolean">
+        <target xmi:type="ecore:EOperation" href="privacyModel.ecore#//Purpose/isValid"/>
+        <semanticElements xmi:type="ecore:EOperation" href="privacyModel.ecore#//Purpose/isValid"/>
+        <semanticElements xmi:type="ecore:EParameter" href="privacyModel.ecore#//Purpose/isValid/purpose"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_VT85ADsZEeuGRc1oxgwK2g" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_qLbDoD45Eeu4BYXgFpvGwA" name="isSubPurposeValid(reason ProcessingReason, subreasons ProcessingReasonSubtype, purpose Purpose) : EBoolean" tooltipText="isSubPurposeValid(reason, subreasons, purpose) : EBoolean">
+        <target xmi:type="ecore:EOperation" href="privacyModel.ecore#//Purpose/isSubPurposeValid"/>
+        <semanticElements xmi:type="ecore:EOperation" href="privacyModel.ecore#//Purpose/isSubPurposeValid"/>
+        <semanticElements xmi:type="ecore:EParameter" href="privacyModel.ecore#//Purpose/isSubPurposeValid/purpose"/>
+        <semanticElements xmi:type="ecore:EParameter" href="privacyModel.ecore#//Purpose/isSubPurposeValid/reason"/>
+        <semanticElements xmi:type="ecore:EParameter" href="privacyModel.ecore#//Purpose/isSubPurposeValid/subreasons"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_qLbqsD45Eeu4BYXgFpvGwA" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_i0sHoCg1Eeu3XdDcotsorQ" name="Restriction" tooltipText="" outgoingEdges="_i81XACg1Eeu3XdDcotsorQ" incomingEdges="_i8_IACg1Eeu3XdDcotsorQ _i9mzECg1Eeu3XdDcotsorQ" width="12" height="10">
@@ -3209,6 +3279,9 @@
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_vX4AQCv3EeuVweutS60jjA" name="PrivacyPolicyHelper" tooltipText="" incomingEdges="_y-m2YCv3EeuVweutS60jjA" width="12" height="10">
       <target xmi:type="ecore:EClass" href="privacyModel.ecore#//PrivacyPolicyHelper"/>
       <semanticElements xmi:type="ecore:EClass" href="privacyModel.ecore#//PrivacyPolicyHelper"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_zUgn0DfSEeu3TLbY6nolQQ" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
@@ -3227,6 +3300,16 @@
         <semanticElements xmi:type="ecore:EOperation" href="privacyModel.ecore#//PrivacyPolicyHelper/isDataSourceValid"/>
         <semanticElements xmi:type="ecore:EParameter" href="privacyModel.ecore#//PrivacyPolicyHelper/isDataSourceValid/dataSource"/>
         <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Kk1HoCzmEeuB_uohagkdcw" labelAlignment="LEFT">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_cjyLUD1fEeuFmq4VN1VpTw" name="areIntervalsOverlap(interval1 TimeInterval, interval2 TimeInterval) : EBoolean" tooltipText="areIntervalsOverlap(interval1, interval2) : EBoolean">
+        <target xmi:type="ecore:EOperation" href="privacyModel.ecore#//PrivacyPolicyHelper/areIntervalsOverlap"/>
+        <semanticElements xmi:type="ecore:EOperation" href="privacyModel.ecore#//PrivacyPolicyHelper/areIntervalsOverlap"/>
+        <semanticElements xmi:type="ecore:EParameter" href="privacyModel.ecore#//PrivacyPolicyHelper/areIntervalsOverlap/interval1"/>
+        <semanticElements xmi:type="ecore:EParameter" href="privacyModel.ecore#//PrivacyPolicyHelper/areIntervalsOverlap/interval2"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_cjyyYD1fEeuFmq4VN1VpTw" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>

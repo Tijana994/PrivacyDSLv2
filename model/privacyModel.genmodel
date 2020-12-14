@@ -83,6 +83,7 @@
       <genEnumLiterals ecoreEnumLiteral="privacyModel.ecore#//ProcessingReasonSubtype/Employment"/>
       <genEnumLiterals ecoreEnumLiteral="privacyModel.ecore#//ProcessingReasonSubtype/SocialSecurity"/>
       <genEnumLiterals ecoreEnumLiteral="privacyModel.ecore#//ProcessingReasonSubtype/SocialProtection"/>
+      <genEnumLiterals ecoreEnumLiteral="privacyModel.ecore#//ProcessingReasonSubtype/None"/>
     </genEnums>
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="privacyModel.ecore#//ConstraintScope">
       <genEnumLiterals ecoreEnumLiteral="privacyModel.ecore#//ConstraintScope/In"/>
@@ -129,6 +130,12 @@
       <genOperations ecoreOperation="privacyModel.ecore#//PolicyStatement/actionContainsCausedByAsType">
         <genParameters ecoreParameter="privacyModel.ecore#//PolicyStatement/actionContainsCausedByAsType/actionType"/>
         <genParameters ecoreParameter="privacyModel.ecore#//PolicyStatement/actionContainsCausedByAsType/complaintType"/>
+      </genOperations>
+      <genOperations ecoreOperation="privacyModel.ecore#//PolicyStatement/isPurposeValid">
+        <genParameters ecoreParameter="privacyModel.ecore#//PolicyStatement/isPurposeValid/purpose"/>
+      </genOperations>
+      <genOperations ecoreOperation="privacyModel.ecore#//PolicyStatement/dateShouldBeDefinedForType">
+        <genParameters ecoreParameter="privacyModel.ecore#//PolicyStatement/dateShouldBeDefinedForType/actionType"/>
       </genOperations>
     </genClasses>
     <genClasses ecoreClass="privacyModel.ecore#//PrivacyData">
@@ -184,6 +191,14 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//Purpose/processingReason"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//Purpose/processingReasonSubtype"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference privacyModel.ecore#//Purpose/subPurposes"/>
+      <genOperations ecoreOperation="privacyModel.ecore#//Purpose/isValid">
+        <genParameters ecoreParameter="privacyModel.ecore#//Purpose/isValid/purpose"/>
+      </genOperations>
+      <genOperations ecoreOperation="privacyModel.ecore#//Purpose/isSubPurposeValid">
+        <genParameters ecoreParameter="privacyModel.ecore#//Purpose/isSubPurposeValid/reason"/>
+        <genParameters ecoreParameter="privacyModel.ecore#//Purpose/isSubPurposeValid/subreasons"/>
+        <genParameters ecoreParameter="privacyModel.ecore#//Purpose/isSubPurposeValid/purpose"/>
+      </genOperations>
     </genClasses>
     <genClasses ecoreClass="privacyModel.ecore#//What">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute privacyModel.ecore#//What/actions"/>
@@ -225,6 +240,10 @@
       </genOperations>
       <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicyHelper/isDataSourceValid">
         <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/isDataSourceValid/dataSource"/>
+      </genOperations>
+      <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicyHelper/areIntervalsOverlap">
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/areIntervalsOverlap/interval1"/>
+        <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/areIntervalsOverlap/interval2"/>
       </genOperations>
       <genOperations ecoreOperation="privacyModel.ecore#//PrivacyPolicyHelper/areDatesOverlap">
         <genParameters ecoreParameter="privacyModel.ecore#//PrivacyPolicyHelper/areDatesOverlap/interval"/>

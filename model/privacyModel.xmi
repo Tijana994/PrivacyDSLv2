@@ -28,6 +28,23 @@
           preposition="after"
           dateTime="2002-09-29T00:00:00.000+0200"/>
     </when>
+    <why>
+      <subPurposes
+          processingReason="OutOfScope"
+          processingReasonSubtype="OutOfEU"/>
+      <subPurposes
+          processingReason="PublicHealth">
+        <subPurposes
+            processingReason="StatisticalPurposes">
+          <subPurposes
+              processingReason="Profiling"/>
+          <subPurposes
+              processingReason="OutOfScope"
+              processingReasonSubtype="Detection"/>
+          <subPurposes/>
+        </subPurposes>
+      </subPurposes>
+    </why>
     <what datas="//@allDatas.0">
       <actions>Store</actions>
     </what>
@@ -52,8 +69,10 @@
           preposition="until"
           dateTime="1999-08-29T00:00:00.000+0200"/>
     </when>
+    <why processingReason="OutOfScope"
+        processingReasonSubtype="Detection"/>
     <what datas="//@allDatas.0">
-      <actions>Store</actions>
+      <actions>Access</actions>
     </what>
     <how dataSource="test">
       <attached
