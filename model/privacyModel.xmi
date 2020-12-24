@@ -102,6 +102,18 @@
           terminationDate="2020-10-28T23:00:00.000+0100"/>
     </how>
   </policyStatements>
+  <policyStatements
+      name="p6"
+      whose="//@allPrincipals.1">
+    <when>
+      <intervals
+          dateTime="2007-08-29T00:00:00.000+0200"/>
+    </when>
+    <what datas="//@allDatas.1">
+      <actions>Access</actions>
+    </what>
+  </policyStatements>
+  <policyStatements/>
   <allPrincipals
       name="Tijana"
       type="Group"/>
